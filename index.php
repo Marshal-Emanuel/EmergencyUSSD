@@ -6,6 +6,7 @@ $phoneNumber = $_POST["phoneNumber"];
 $text        = $_POST["text"];
 
 //Start the response with CON
+//End response with END
 function mainMenu(){
   $response  = "CON ~ Emergency Report System ~\n Select your emergency from below\n";
     $response .= "1. Crime (Robbery/ Assault) \n";
