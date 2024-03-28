@@ -1,5 +1,5 @@
 <?php
-// Read the variables sent via POST (from USSD simulator)from Africas Talking API
+// Read the variables sent via POST (from USSD simulator) from Africas Talking API
 $sessionId   = $_POST["sessionId"];
 $serviceCode = $_POST["serviceCode"];
 $phoneNumber = $_POST["phoneNumber"];
